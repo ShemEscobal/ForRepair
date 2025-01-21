@@ -6,7 +6,7 @@ import pandas as pd
 user_data = {}
 
 # Create a directory for storing uploaded photos
-photo_storage_dir = "uploaded_photos"
+photo_storage_dir = "ForRepair"
 os.makedirs(photo_storage_dir, exist_ok=True)
 
 # Create or load the Excel file for storing data
